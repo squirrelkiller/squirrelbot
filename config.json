@@ -1,0 +1,18 @@
+{
+"token"			:	"",
+"description"	:	"",
+"owner"			:	"",
+"prefix"		:	["!", ".", ","],
+"ignoreBots"	:	false,
+"images"		:	{},
+"responder"		:
+	{
+		"serversToRunIn"	:	[],
+		"channelsToRunIn"	:	[],
+		"adminUsers"		:	[],
+		"noLimits"			:	[],
+		"ignore"			:	[],
+		"timer"				:	3600000,
+		"responses"			:	[]
+	}
+}

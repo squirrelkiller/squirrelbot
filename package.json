@@ -1,0 +1,16 @@
+{
+  "name": "squirrelbot",
+  "version": "0.4.0",
+  "description": "A Discord Bot intended for multiple purposes",
+  "main": "index.js",
+  "author": "squirrel_killer-",
+  "dependencies": {
+    "eris": "^0.7.0",
+    "require-dir": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "See License file"
+}
