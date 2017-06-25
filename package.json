@@ -1,6 +1,6 @@
 {
   "name": "squirrelbot",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "A Discord Bot intended for multiple purposes",
   "main": "index.js",
   "author": "squirrel_killer-",

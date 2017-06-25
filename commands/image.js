@@ -1,6 +1,6 @@
 //TODO: Modify so that it creates commands directly rather than making them an argument to "image".
 
-const imageCollection = require('../config.json').images;
+const imageCollection = config.images;
 const imageCollectionKeys = Object.keys(imageCollection);
 
 //Generic image randomizer.

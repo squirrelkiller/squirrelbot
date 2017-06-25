@@ -1,18 +1,18 @@
-const config = require('../config.json').responder;
+const responderConfig = config.responder;
 
 //Creates the bot
-var serversToRunIn = config.serversToRunIn; //Servers where this bot works.
-var channelsToRunIn = config.channelsToRunIn; //Specific channels where this bot works.
-var adminUsers = config.adminUsers; //Users who may use admin commands.
-var channelsWithoutRestriction = config.noLimits; //Channels in which spam heavy usage, such as dump command and responding to every message without timer are allowed.
-var channelsToIgnore = config.ignore; //The bot will completely ignore these channels.
+var serversToRunIn = responderConfig.serversToRunIn; //Servers where this bot works.
+var channelsToRunIn = responderConfig.channelsToRunIn; //Specific channels where this bot works.
+var adminUsers = responderConfig.adminUsers; //Users who may use admin commands.
+var channelsWithoutRestriction = responderConfig.noLimits; //Channels in which spam heavy usage, such as dump command and responding to every message without timer are allowed.
+var channelsToIgnore = responderConfig.ignore; //The bot will completely ignore these channels.
 
 var channelsVisited = []; //Channels the bot has ran in.
 
-const responseTimer = config.timer; //Time until the bot may react to a certain type of message again.
+const responseTimer = responderConfig.timer; //Time until the bot may react to a certain type of message again.
 
 //Contains all the information for each response type. This array contains objects that contain the regex for each checked for response, the reactions to respond with, and the time when they were last used.
-var responses = config.responses;
+var responses = responderConfig.responses;
 
 
 //Generic image randomizer.

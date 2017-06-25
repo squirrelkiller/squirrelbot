@@ -1,5 +1,5 @@
 const Eris = require('eris');
-const config = require('./config.json');
+config = require('./config.json');
 const requireDir = require('require-dir');
 
 commandBot = new Eris.CommandClient(config.token, {}, {
